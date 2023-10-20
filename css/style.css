@@ -85,22 +85,24 @@ li{
     border: 2px dashed black;
     
 }
-.container-main2-4{
+.container-main2-4, .container-main3{
     max-width: 2000px;
     height: 450px;
     margin: 0 auto;
-    background-color: rgb(253, 253, 255);
     display: flex;
     justify-content: center;
     padding: 30px 0px;
-    
 }
+.container-main2-4{
+    background-color: rgb(253, 253, 255);
+}
+    
+
 .row2-4{
     display: flex;
     width: calc(100% - 500px);
     background-color: rgb(219, 39, 159);
     
-   
 }
 .column-grande{
     width: 60%;
@@ -115,13 +117,9 @@ li{
 
 }
 .container-main3{
-    max-width: 2000px;
-    height: 450px;
-    margin: 0 auto;
+    
     background-color: lightgrey;
-    display: flex;
-    justify-content: center;
-    padding: 30px 0px;
+    
 }
 .row3{
     flex-direction: row-reverse;
