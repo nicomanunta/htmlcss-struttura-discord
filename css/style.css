@@ -68,14 +68,16 @@ ul{
 li{
     margin: 0 10px;
 }
-
-.container-main1{
+.container-main1, .container-main5{
     max-width: 2000px;
-    height: 350px;
     margin: 0 auto;
-    background-color: blue;
     display: flex;
     justify-content: center;
+}
+
+.container-main1{
+    height: 350px;
+    background-color: blue;
     padding: 30px 0px;
     
 }
@@ -96,9 +98,9 @@ li{
 .container-main2-4{
     background-color: rgb(253, 253, 255);
 }
-    
 
-.row2-4{
+
+.row2-4, .row3{
     display: flex;
     width: calc(100% - 500px);
     background-color: rgb(219, 39, 159);
@@ -123,17 +125,10 @@ li{
 }
 .row3{
     flex-direction: row-reverse;
-    display: flex;
-    width: calc(100% - 500px);
-    background-color: rgb(219, 39, 159);
 }
 .container-main5{
-    max-width: 2000px;
     height: 700px;
-    margin: 0 auto;
     background-color: lightgray;
-    display: flex;
-    justify-content: center;
     padding: 50px 0px;
 }
 .row5{
@@ -142,23 +137,24 @@ li{
     border: 2px dashed black;
     
 }
-.container-footer1{
+.container-footer1, .container-footer2{
     max-width: 2000px;
-    height: 450px;
     margin: 0 auto;
-    background-color: rgb(63, 63, 63);
     display: flex;
     justify-content: center;
+
+    
+}
+.container-footer1{
+    height: 450px;
+    background-color: rgb(63, 63, 63);
     padding-top: 10px;
     padding-bottom: 25px;
     
 }
-.row6{
+.row6, .row7{
     display: flex;
     width: calc(100% - 500px);
-    
-
-    
    
 }
 .column1{
@@ -175,18 +171,11 @@ hr{
     color: white;
 }
 .container-footer2{
-    max-width: 2000px;
-    margin: 0 auto;
     background-color: rgb(63, 63, 63);
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
     padding: 10px 0px;
 
 }
 .row7{
-    display: flex;
-    width: calc(100% - 500px);
     height: 32px;
     justify-content: space-between;
     background-color: rgb(39, 210, 219);
